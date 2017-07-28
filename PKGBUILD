@@ -5,8 +5,8 @@
 
 pkgbase=linux-CC               # Build stock -ARCH kernel
 #pkgbase=linux-custom       # Build kernel with a different name
-_srcname=linux-stable-4.12.3
-pkgver=4.12.3
+_srcname=linux-stable-4.12.4
+pkgver=4.12.4
 pkgrel=1
 arch=('i686' 'x86_64')
 url="https://www.kernel.org/"
@@ -21,7 +21,7 @@ source=("https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git
         # standard config files for mkinitcpio ramdisk
         'linux.preset')
 
-sha256sums=('b051e3947225ed5d3b474926e16c800ea939c254cb5cdbce9c20c3539a9ef52c'
+sha256sums=('f2a6acfdb895fe700b89c82b972e98d0f782ed8d74bcf37893fc6da5132d07e0'
             'f330007da72867bb86556d1f8b84b8a4c8148a5ed5195ae25570a5da61428733'
             '9dd9aa4a8ec613cc8261e40db897685d75e3d426219ed8d21fa3a6bc72a27a32'
             '834bd254b56ab71d73f59b3221f056c72f559553c04718e350ab2a3e2991afe0'
