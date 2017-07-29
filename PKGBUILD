@@ -7,7 +7,7 @@ pkgbase=linux-CC               # Build stock -ARCH kernel
 #pkgbase=linux-custom       # Build kernel with a different name
 _srcname=linux-stable-4.12.4
 pkgver=4.12.4
-pkgrel=1
+pkgrel=2
 arch=('i686' 'x86_64')
 url="https://www.kernel.org/"
 license=('GPL2')
@@ -22,10 +22,11 @@ source=("https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git
         'linux.preset')
 
 sha256sums=('f2a6acfdb895fe700b89c82b972e98d0f782ed8d74bcf37893fc6da5132d07e0'
-            'f330007da72867bb86556d1f8b84b8a4c8148a5ed5195ae25570a5da61428733'
-            '9dd9aa4a8ec613cc8261e40db897685d75e3d426219ed8d21fa3a6bc72a27a32'
+            'df55887a43dcbb6bd35fd2fb1ec841427b6ea827334c0880cbc256d4f042a7a1'
+            'bf84528c592d1841bba0662242f0339a24a1de384c31f28248631e8be9446586'
             '834bd254b56ab71d73f59b3221f056c72f559553c04718e350ab2a3e2991afe0'
             'ad6344badc91ad0630caacde83f7f9b97276f80d26a20619a87952be65492c65')
+
 validpgpkeys=(
               'ABAF11C65A2970B130ABE3C479BE3E4300411886' # Linus Torvalds
               '647F28654894E3BD457199BE38DBBDC86092693E' # Greg Kroah-Hartman
