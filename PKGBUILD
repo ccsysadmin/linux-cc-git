@@ -5,8 +5,8 @@
 
 pkgbase=linux-CC            # Build stock -ARCH kernel
 #pkgbase=linux-custom       # Build kernel with a different name
-_srcname=linux-4.13.4
-pkgver=4.13.4
+_srcname=linux-4.13.5
+pkgver=4.13.5
 pkgrel=1
 arch=('i686' 'x86_64')
 url="https://www.kernel.org/"
@@ -21,11 +21,12 @@ source=("https://www.kernel.org/pub/linux/kernel/v4.x/${_srcname}.tar.xz"
         # standard config files for mkinitcpio ramdisk
         'linux.preset')
 
-sha256sums=('a09e95eb59de505cec462f3008148bcf7f5b8ed0e9e19f3e129d13a7a8d8f420'
+sha256sums=('a9e85ada609d4fc6f21bf1836099259e3634be142abe8208d88de3e257ff25e2'
             '73278ee56c5d3855e67ff50caa77a7cb47fb29ebd8f9b7ca9ebee4e2d446529c'
             '1b9cbe1c25653d563515344a7c6cc9f79447ac9274fcf4de0007228e979b55dd'
             '834bd254b56ab71d73f59b3221f056c72f559553c04718e350ab2a3e2991afe0'
             'ad6344badc91ad0630caacde83f7f9b97276f80d26a20619a87952be65492c65')
+
 validpgpkeys=(
             'ABAF11C65A2970B130ABE3C479BE3E4300411886' # Linus Torvalds
             '647F28654894E3BD457199BE38DBBDC86092693E' # Greg Kroah-Hartman
