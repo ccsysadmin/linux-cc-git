@@ -5,8 +5,8 @@
 
 pkgbase=linux-CC            # Build stock -ARCH kernel
 #pkgbase=linux-custom       # Build kernel with a different name
-_srcname=linux-4.13.5
-pkgver=4.13.5
+_srcname=linux-4.13.6
+pkgver=4.13.6
 pkgrel=1
 arch=('i686' 'x86_64')
 url="https://www.kernel.org/"
@@ -21,9 +21,9 @@ source=("https://www.kernel.org/pub/linux/kernel/v4.x/${_srcname}.tar.xz"
         # standard config files for mkinitcpio ramdisk
         'linux.preset')
 
-sha256sums=('a9e85ada609d4fc6f21bf1836099259e3634be142abe8208d88de3e257ff25e2'
-            '73278ee56c5d3855e67ff50caa77a7cb47fb29ebd8f9b7ca9ebee4e2d446529c'
-            '1b9cbe1c25653d563515344a7c6cc9f79447ac9274fcf4de0007228e979b55dd'
+sha256sums=('47d419ceae1d353dad565b858301ac9670c747deb37936c8a935915b3bdd6050'
+            'f68bb8bccbbd6b86dc9f182ee25b2953638aec2729387c70d2787318ad4ea16c'
+            '9be58e0adea94ccd51aabdd568fa65ba84097f31589de57c5fcc7c71c257a6e0'
             '834bd254b56ab71d73f59b3221f056c72f559553c04718e350ab2a3e2991afe0'
             'ad6344badc91ad0630caacde83f7f9b97276f80d26a20619a87952be65492c65')
 
